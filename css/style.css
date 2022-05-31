@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/Lato-Medium.eot');
+    src: url('/fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Lato-Medium.woff2') format('woff2'),
+        url('/fonts/Lato-Medium.woff') format('woff'),
+        url('/fonts/Lato-Medium.ttf') format('truetype'),
+        url('/fonts/Lato-Medium.svg#Lato-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1128px;
+    margin: auto;
+}
+
+header {
+
+    padding: 30px 0;
+    background-color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container nav ul {
+    display: flex;
+}
+
+.icons ul {
+    display: flex;
+}
+
+.icons ul li {
+    list-style: none;
+}
+
+.icons ul li:nth-child(4) {
+    margin-left: 26px;
+}
+
+.icons ul li:nth-child(3) {
+    margin-left: 26px;
+    width: 100%;
+}
+
+.icons ul li:nth-child(3) a img {
+    width: 22px;
+    height: 20px;
+}
+
+.icons ul li:nth-child(2) {
+    margin-left: 26px;
+}
+
+header .container nav ul li {
+    list-style: none;
+    margin: 0 28px;
+}
+
+header .container nav ul li a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.main_banner {
+    background-image: url(/images/main_banner.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+.article_section_one {
+    padding-top: 154px;
+}
+
+.article_section_one p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.article_section_one h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.article_section_one a {
+    background: #FDDB3A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 10px 55px;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.new_arrivals {
+    padding: 80px 0 100px;
+}
+
+.new_arrivals .container article {
+    text-align: center;
+    align-items: center;
+}
+
+.new_arrivals .container article h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.new_arrivals .container article p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    list-style: none;
+    height: 421px;
+}
+
+.card img {
+    margin-bottom: 12px;
+    display: inline-block;
+    width: 264px;
+    height: 340px;
+    transition: 400ms;
+
+}
+
+.card:hover img {
+    height: 360px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card:not(:hover) a {
+    text-decoration: none;
+}
+
+.card p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.card a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.new_arrivals .container h2 {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+}

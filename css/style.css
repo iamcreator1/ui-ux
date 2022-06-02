@@ -126,6 +126,20 @@ header .container nav ul li a {
     color: #333333;
 }
 
+.article_section_one a:hover {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    transition-property: height, width, background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in, ease, linear;
+}
+
 /* section_two */
 .new_arrivals {
     padding: 80px 0 100px;
@@ -232,7 +246,7 @@ header .container nav ul li a {
 
 .conquer_details .container p {
     font-family: 'Lato', sans-serif;
-    font-style: normal; 
+    font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 43px;
@@ -254,3 +268,152 @@ header .container nav ul li a {
     color: #333333;
 }
 
+.view-all:hover {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    transition-property: height, width, background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in, ease, linear;
+}
+
+.description-of-shoes {
+    padding: 100px 0;
+    background-color: white;
+}
+
+.container-for-content-one {
+    max-width: 1128px;
+    margin: auto;
+    border: 1px solid #D0D0D0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 48px;
+}
+
+.container-for-content-one h4 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 28px;
+}
+
+.container-for-content-one p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.shoes_description {
+    margin: 86px 69px 116px 0;
+    max-width: 438px;
+}
+
+.possition-for-photo h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+
+
+.possition-for-photo h4 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.possition-for-photo img {
+    margin-bottom: 14px;
+}
+
+.possition-for-photo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.container-for-content-two {
+    max-width: 1128px;
+    margin: auto;
+    border: 1px solid #D0D0D0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container-for-content-two h4 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 28px;
+}
+
+.container-for-content-two p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.shoes_description-content-two {
+    max-width: 438px;
+    margin: 86px 0 86px 69px;
+}
+
+.possition-for-photo-two {
+    position: absolute;
+    right: 235px;
+    bottom: 0px;
+}
+
+.possition-for-photo-two h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.possition-for-photo-two h4 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.possition-for-photo-two img {
+    margin-bottom: 14px;
+}

@@ -394,7 +394,7 @@ header .container nav ul li a {
 }
 
 .possition-for-photo-two h3 {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -405,7 +405,7 @@ header .container nav ul li a {
 }
 
 .possition-for-photo-two h4 {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

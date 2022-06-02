@@ -70,7 +70,7 @@ header .container nav ul li {
 
 header .container nav ul li a {
     text-decoration: none;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -78,6 +78,7 @@ header .container nav ul li a {
     color: #333333;
 }
 
+/* section_one */
 .main_banner {
     background-image: url(/images/main_banner.jpg);
     background-size: cover;
@@ -90,7 +91,7 @@ header .container nav ul li a {
 }
 
 .article_section_one p {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -101,7 +102,7 @@ header .container nav ul li a {
 }
 
 .article_section_one h1 {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
@@ -117,7 +118,7 @@ header .container nav ul li a {
     border-radius: 4px;
     padding: 10px 55px;
     text-decoration: none;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -125,6 +126,7 @@ header .container nav ul li a {
     color: #333333;
 }
 
+/* section_two */
 .new_arrivals {
     padding: 80px 0 100px;
 }
@@ -135,7 +137,7 @@ header .container nav ul li a {
 }
 
 .new_arrivals .container article h2 {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -181,7 +183,7 @@ header .container nav ul li a {
 }
 
 .card p {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -191,7 +193,7 @@ header .container nav ul li a {
 }
 
 .card a {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -208,3 +210,47 @@ header .container nav ul li a {
     display: flex;
     justify-content: space-between;
 }
+
+/* section_three */
+
+.conquer_details {
+    background-image: url(../images/shoes_conq.jpg);
+    background-size: cover;
+    padding: 120px 0 200px;
+}
+
+.conquer_details .container h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.conquer_details .container p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal; 
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #F2F2F2;
+    margin-bottom: 60px;
+}
+
+.view-all {
+    background: #FDDB3A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 10px 55px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
